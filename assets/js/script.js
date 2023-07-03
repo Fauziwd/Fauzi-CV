@@ -183,3 +183,15 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+//  Sweet Alert
+const button = document.querySelector('[data-form-btn]');
+
+button.addEventListener('click', () => {
+  Swal.fire({
+    icon: 'success',
+    title: 'Tombol diklik!',
+    text: 'Ini adalah alert yang modern.',
+    confirmButtonText: 'OK'
+  });
+});

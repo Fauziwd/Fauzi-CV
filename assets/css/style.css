@@ -1329,6 +1329,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .title { padding: 5px 18px; }
 
+  .info-content {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .info-content:hover {
+    transform: scale(1.1);
+  }
+  
+
   .info_more-btn {
     top: -30px;
     right: -30px;

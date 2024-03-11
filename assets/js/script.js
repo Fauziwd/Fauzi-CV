@@ -8,7 +8,7 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 //  Tombol About 
 const textContainer = document.getElementById('text-container');
 const showMoreBtn = document.getElementById('show-more-btn');
-const wordsPerChunk = 100;
+const wordsPerChunk = 120;
 let currentChunk = 1;
 
 const text = textContainer.textContent;
@@ -120,6 +120,10 @@ const filterFunc = function (selectedValue) {
 
 }
 
+// Buat Halaman Blog
+
+
+
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
 
@@ -195,3 +199,5 @@ button.addEventListener('click', () => {
     confirmButtonText: 'OK'
   });
 });
+
+// ---------------------- Skrip Lanjutkan membaca

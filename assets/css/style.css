@@ -225,6 +225,7 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  
 }
 
 .article-title::after {
@@ -486,6 +487,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .about-text p { margin-bottom: 15px; }
@@ -498,7 +500,11 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin-bottom: 20px; 
+  margin-top: 60px;
+font-size: 30px;
+}
 
 .service-list {
   display: grid;
@@ -546,7 +552,7 @@ main {
 
 .testimonials { margin-bottom: 30px; }
 
-.testimonials-title { margin-bottom: 20px; }
+.testimonials-title { margin-bottom: 20px; margin-top: 80px; font-size: 30px; }
 
 .testimonials-list {
   display: flex;

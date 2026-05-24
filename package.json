@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "sweetalert2": "^11.7.12"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
